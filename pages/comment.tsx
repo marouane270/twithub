@@ -21,12 +21,12 @@ const Comment: React.FC = () => {
         } catch (error) {
           console.error(error);
         }
-    };
+    };/*
     useEffect(() => {
       console.log(Router.route)
     
       
-    }, [])
+    }, [])*/
     
     return (
         <Layout>
