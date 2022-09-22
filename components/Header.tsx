@@ -46,7 +46,7 @@ const Header: React.FC = () => {
       <div className="left">
         <Link href="/">
           <a className="bold" data-active={isActive('/')}>
-            Fil d'actualité
+            Fil d&apos;actualité
           </a>
         </Link>
         <style jsx>{`
@@ -118,7 +118,7 @@ const Header: React.FC = () => {
       <div className="left">
         <Link href="/">
           <a className="bold" data-active={isActive('/')}>
-            Fil d'actualité
+            Fil d&apos;actualité
           </a>
         </Link>
         <Link href="/drafts">
