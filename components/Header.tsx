@@ -124,6 +124,9 @@ const Header: React.FC = () => {
         <Link href="/drafts">
           <a data-active={isActive('/drafts')}>Mes brouillons</a>
         </Link>
+        <Link href="/profil">
+          <a data-active={isActive('/profil')}>Mon profil</a>
+        </Link>
         <style jsx>{`
           .bold {
             font-weight: bold;

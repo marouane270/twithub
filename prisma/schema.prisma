@@ -26,6 +26,8 @@ model User {
   email         String?   @unique
   emailVerified DateTime?
   image         String?
+  bio           String?
+  customLink    String?   @unique @default(cuid())
   posts         Post[]
   comments      Comment[]
   accounts      Account[]
