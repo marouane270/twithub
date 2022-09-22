@@ -133,7 +133,6 @@ const Post: React.FC<PostProps> = (props) => {
         <br></br>
         <h3>Commentaires :</h3>
         {
-          
             props.comments.map(element=>
                  
                  /*<div className="flex items-start px-4 py-6 w-full">

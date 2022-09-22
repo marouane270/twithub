@@ -12,7 +12,7 @@ export type PostProps = {
   } | null;
   content: string;
   published: boolean;
-  comments: {message : string};
+  comments: any;
 };
 
 const Post: React.FC<{ post: PostProps }> = ({ post }) => {
