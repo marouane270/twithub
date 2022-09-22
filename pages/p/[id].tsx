@@ -93,7 +93,7 @@ const Post: React.FC<PostProps> = (props) => {
       <div>
         <h2>{title}</h2>
         <p>Publié par {props?.author?.name || 'Unknown author'}</p>
-        <ReactMarkdown children={props.content} />
+        <p>{props.content}</p>
         <br></br>
         {/* {
           (Array.isArray(props.comments)) : {
@@ -144,7 +144,7 @@ const Post: React.FC<PostProps> = (props) => {
                     </p>
                   </div>
                  </div>*/    
-                  <h5> {element.userIdC.name} à répondu : { element.message }</h5>
+                  <h5 key={element.id} > {element.userIdC.name} à répondu : { element.message }</h5>
       
            )
          
